@@ -37,9 +37,9 @@ model=CNNModel()
 >We use the CrossEntropyLoss for our CNN. Cross-entropy loss increases as the predicted probability diverges from the actual label. It therfore acts as a reinforcement feedback to minimise the error.
 
 - ### Step 6: Instantiating the optimizer variable
-We use a learning_rate of 0.01 as a baseline.
+>We use a learning_rate of 0.01 as a baseline.
 - ### Final Step: Training the model 
-Now we just have to actually train the created model and find its accuracy simultaneously on the test data set.
+>Now we just have to actually train the created model and find its accuracy simultaneously on the test data set.
 >#### NOTE: The training step utilizes a 100% of the CPU and heats it up pretty quick. For that case, one can opt to use the Google Colab platform to run and test their scripts [Google Colab](https://colab.research.google.com)
 
 ### Accuracy Observed: ~85%
