@@ -26,7 +26,7 @@ We use the DataLoader utility in Pytorch
 class CNNModel(nn.Module):
     ....
 ```
->We will use a kernel of 5 \times 5 for the 2 layers. Also we use ReLU activation function since it converts the negative pixel values to 0.
+>We will use a kernel of 5x5 for the 2 layers. Also we use ReLU activation function since it converts the negative pixel values to 0.
 - ### Step 4: Instantiating the model class
 > ```python
 model=CNNModel()
