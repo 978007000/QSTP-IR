@@ -22,7 +22,8 @@ We use the DataLoader utility in Pytorch
 > Our number of iterations will be 3000
 > The total number of epochs can be calculated as: \frac{number_iterations}{len(training_data)/batch_size}\to 5
 - ### Step 3: Creating the model class
-> ```python
+> 
+```python
 class CNNModel(nn.Module):
     ....
 ```
