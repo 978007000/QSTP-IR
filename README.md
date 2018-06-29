@@ -22,13 +22,15 @@ We use the DataLoader utility in Pytorch
 > Our number of iterations will be 3000
 > The total number of epochs can be calculated as: \frac{number_iterations}{len(training_data)/batch_size}\to 5
 - ### Step 3: Creating the model class
-'''python
+> ```python
 class CNNModel(nn.Module):
     ....
+```
 >We will use a kernel of 5 \times 5 for the 2 layers. Also we use ReLU activation function since it converts the negative pixel values to 0.
 - ### Step 4: Instantiating the model class
-'''python
+> ```python
 model=CNNModel()
+```
 - ### Step 5: Instantiating the loss function
 >We use the CrossEntropyLoss for our CNN. Cross-entropy loss increases as the predicted probability diverges from the actual label. It therfore acts as a reinforcement feedback to minimise the error.
 
