@@ -42,7 +42,7 @@ class CNNModel(nn.Module):
 model=CNNModel()
 ```
 - ### Step 5: Instantiating the loss function
->We use the CrossEntropyLoss for our CNN. Cross-entropy loss increases as the predicted probability diverges from the actual label. It therfore acts as a reinforcement feedback to minimise the error.
+>We use the CrossEntropyLoss for our CNN. **Cross-entropy** loss increases as the predicted probability diverges from the actual label. It therfore acts as a reinforcement feedback to minimise the error.
 >
 ```python
 criterion=nn.CrossEntropyLoss()
