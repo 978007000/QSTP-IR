@@ -7,7 +7,7 @@
 - Matplotlib
 - Numpy
 
-Visit [Pytorch](https://pytorch.org/) for details on installation and support.
+###### Visit [Pytorch](https://pytorch.org/) for details on installation and support.
 ---
 
 A Convolutional Neural Network (CNN) is a type of neural network that is mainly used in Image/Pattern recognition applications. 
