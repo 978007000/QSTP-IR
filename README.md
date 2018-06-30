@@ -6,6 +6,7 @@
 - TorchVision
 - Matplotlib
 - Numpy
+
 Visit [Pytorch](https://pytorch.org/) for details on installation and support.
 ---
 
@@ -16,7 +17,7 @@ It detects patterns by forming kernels (an NxN matrix) and mapping it to an area
 
 We will be using 2 convolutional layers for our network.
 
-We create the CNN through the following steps:
+## We create the CNN through the following steps:
 - ### Step 1: Loading the dataset FashionMNIST from Pytorch and converting it to a tensor.
 - ### Step 2: Making the dataset iterable
 We use the DataLoader utility in Pytorch
