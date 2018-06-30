@@ -20,7 +20,8 @@ We create the CNN through the following steps:
 We use the DataLoader utility in Pytorch
 > We set the batch size to 100
 > Our number of iterations will be 3000
-> The total number of epochs can be calculated as: \frac{number_iterations}{len(training_data)/batch_size}\to 5
+> The total number of epochs can be calculated as:
+>number_iterations/(len(training_data)/batch_size)
 - ### Step 3: Creating the model class
 >We will use a kernel of 5x5 for the 2 layers. Also we use ReLU activation function since it converts the negative pixel values to 0.
 > 
