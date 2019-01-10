@@ -1,1 +1,9 @@
+title: Samyak Jain - QSTP-IR
+email: jainsamyak330@gmail.com
+description: A convolutional neural network for the Fashion-MNIST dataset implemented in Python.
+url: "https://jainsamyak.github.io/" 
+baseurl: /QSTP-IR
+github_username: jainsamyak
+
+# Build settings
 theme: jekyll-theme-cayman
